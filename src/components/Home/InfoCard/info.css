@@ -1,3 +1,6 @@
+ .info-card{
+    padding: 0 5px;
+ }
 .info-primary{
   background-color: #1CC7C1;
 }
@@ -5,9 +8,12 @@
   background-color:#3a4256;
 }
 .info-container{
-    padding: 40px;
-    height: 120px;
+    padding: 30px;
+    height: 100px;
 }
 .info-icons{
     font-size: 3em;
+}
+.left{
+    margin-right: 10px;
 }

@@ -24,10 +24,13 @@ import { faClock,faMapMarker,faPhone } from '@fortawesome/free-solid-svg-icons'
 const BusinessInfo = () => {
     
     return (
-         <section className='row'>
-             {
+         <section className='d-flex justify-content-center'>
+            <div className='w-75 row'>
+            {
                 infosdata.map(info=><InfoCard info={info}></InfoCard>)
              }
+            </div>
+            
          </section>
     );
 };

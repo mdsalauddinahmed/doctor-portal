@@ -4,10 +4,10 @@ import './info.css'
 
 const InfoCard = ({info}) => {
     return (
-        <div className='col-md-4 text-white'>
-            <div className={`d-flex justify-content-center info-container info-${info.background}`}>
+        <div className='col-md-4 text-white info-card'>
+            <div className={`d-flex justify-content-center  info-container info-${info.background}`}>
 
-            <div>
+            <div className='left'>
             <FontAwesomeIcon className='info-icons' icon={info.icon}></FontAwesomeIcon>
             </div>
             <div>
