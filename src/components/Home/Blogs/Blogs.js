@@ -33,7 +33,7 @@ const Blogs = () => {
        <section className="blogs my-5 ms-4">
            <div className="container">
                <div className="section-header text-center">
-                    <h5 className="text-primary text-uppercase">our blog</h5>
+                    <h5 style={{color:'#1cc7c1'}} className="text-uppercase">our blog</h5>
                     <h1>From Our Blog News</h1>
                </div>
                <div className="card-deck mt-5 d-flex  ">

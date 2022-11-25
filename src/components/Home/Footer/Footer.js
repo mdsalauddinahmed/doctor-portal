@@ -40,7 +40,7 @@ const Footer = () => {
             <div className="container pt-5">
                 <div className="row py-5">
                     <FooterCol key={1} menuTitle={"."} menuItems={noNamed}/>
-                    <FooterCol key={2} menuTitle="Services" menuItems={services}/>
+                    <FooterCol key={2} menuTitle="Services" menuItems={services}/>   
                     <FooterCol key={3} menuTitle="Oral Health" menuItems={oralHealth}/>
                     <FooterCol key={4} menuTitle="Our Address" menuItems={ourAddress}> 
                         <ul className="social-media list-inline">
@@ -50,7 +50,7 @@ const Footer = () => {
                         </ul>
                         <div className="mt-5">
                             <h6>Call now</h6>
-                            <button className="btn btn-primary">+2025550295</button>
+                            <button style={{background:'#1cc7c1'}} className="btn  ">+2025550295</button>
                         </div>
                     </FooterCol>
                 </div>
