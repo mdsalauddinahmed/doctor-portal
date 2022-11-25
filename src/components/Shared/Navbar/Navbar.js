@@ -8,9 +8,9 @@ const Navbar = () => {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a className="nav-link active " aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item ms-5">
                 <a class="nav-link" href="#">About</a>
