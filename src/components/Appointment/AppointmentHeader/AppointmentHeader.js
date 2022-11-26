@@ -8,8 +8,8 @@ const AppointmentHeader = ({handleDatechange}) => {
  
     return (
         <main style={{height:'600px'}} className='row d-flex align-items-center'>
-        <div className="col-md-4 offset-md-1">
-        <h1 style={{color:"#3a4256"} }>Appointment</h1>
+        <div className="col-md-4 offset-md-1 ">
+        <h1 style={{color:"#3a4256"} } className="mb-5">Appointment</h1>
         <Calendar onChange={handleDatechange} value={new Date()} />
 
         </div>
